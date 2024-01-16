@@ -5,7 +5,7 @@ var hitrn = 0;
 function makeBubble(){
 
     var clutter = "";
-    for(var a = 0 ; a < 102 ; a++){
+    for(var a = 0 ; a < 96 ; a++){
         var rn = Math.floor(Math.random() * 10);
         clutter += `<div class="bubble">${rn}</div>`
     }
